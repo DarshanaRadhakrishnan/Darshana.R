@@ -1,0 +1,127 @@
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #dbeeff;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.signup-container {
+  display: flex;
+  background-color: hsl(208, 100%, 93%);
+  padding: 20px 40px;
+  gap: 50px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 900px;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+/* Left side welcome text */
+.welcome-box {
+  flex: 1;
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.welcome-box h1 {
+  font-size: 2.5rem;
+  color: #000;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.welcome-box span {
+  font-weight: 800;
+}
+
+.welcome-box p {
+  font-size: 1.2rem;
+  color: #333;
+}
+
+/* Right side form */
+.form-box {
+  flex: 1;
+  background-color: #55b8e9;
+  border-radius: 20px;
+  padding: 40px 30px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+}
+
+.form-box h2 {
+  text-align: center;
+  font-size: 1.8rem;
+  margin-bottom: 30px;
+  color: #000;
+}
+
+form label {
+  display: block;
+  margin-top: 15px;
+  font-size: 1rem;
+  color: #000;
+}
+
+form input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: none;
+  border-radius: 5px;
+  background-color: #addcf3;
+  font-size: 1rem;
+  outline: none;
+}
+
+.forgot {
+  text-align: right;
+  margin-top: 10px;
+}
+
+.forgot a {
+  text-decoration: none;
+  font-size: 0.9rem;
+  color: #0a2f4d;
+}
+
+.btn-signup {
+  width: 100%;
+  padding: 12px;
+  margin-top: 20px;
+  background-color: #066d6d;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.already {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 0.95rem;
+  color: #000;
+}
+
+.btn-login {
+  display: block;
+  text-align: center;
+  margin: 10px auto 0;
+  width: 100%;
+  padding: 12px;
+  background-color: #034b4b;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  text-decoration: none;
+}

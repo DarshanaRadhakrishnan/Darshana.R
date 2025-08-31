@@ -1,0 +1,92 @@
+/* General Page Background */
+.appointment-container {
+  padding: 20px;
+  background-color: #81C6E8;
+}
+
+.section-title {
+  background-color: #54C6E8;
+  padding: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+  font-weight: bold;
+}
+
+.section-title select {
+  padding: 10px;
+  font-size: 16px;
+}
+
+.grid-section {
+  display: flex;
+  justify-content: space-between;
+  background-color: #B4DAEB;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+.left-panel, .right-panel {
+  flex: 1;
+  min-width: 300px;
+  padding: 10px;
+}
+
+.selection-row, .booking-row, .treatment-row {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+
+select {
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: #e6f3f9;
+}
+
+.reminder-box {
+  background-color: #8BD0ED;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.button-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+}
+
+.btn {
+  padding: 10px 20px;
+  border: none;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.call-btn, .chat-btn {
+  background-color: white;
+  color: black;
+}
+
+.book-btn {
+  background-color: white;
+  border-left: 2px solid black;
+}
+Appointment Booking-title
+.Appointment Booking {
+    background: #64b5f6;
+    padding:10px 30px;
+    color: white;
+    font-weight:bold;
+}

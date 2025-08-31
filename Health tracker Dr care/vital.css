@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #81C6E8;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 20px;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+ Vitals Tracker-title 
+.Vitals Tracker {
+    background:#64b5f6;
+    padding:10px 30px;
+    color: white;
+    font-weight:bold;
+}
+
+.branding h1 {
+  margin: 0;
+  color: #1e1e1e;
+}
+
+.branding h1 span {
+  color: #0066cc;
+}
+
+.branding p {
+  margin: 0;
+  font-weight: bold;
+}
+
+nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.patient-info {
+  background-color: #d0eaff;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  text-align: right;
+  font-weight: bold;
+}
+
+.tracker-section {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px 20px;
+  flex-wrap: wrap;
+}
+
+.tracker-box {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  width: 420px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  margin-bottom: 30px;
+}
+
+.controls {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 10px;
+}
+
+.controls button {
+  background-color: #2D9C8B;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 30px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.tracker-box h3 {
+  margin-bottom: 15px;
+  color: #1b1b1b;
+}
+
+.chart-img {
+  width: 100%;
+  height: auto;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+footer {
+  background-color: #b3def1;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-box p {
+  margin: 10px 0;
+  font-size: 16px;
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Appointment Booking</title>
+  <link rel="stylesheet" href="appointment.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header style="display: flex; justify-content: space-between; align-items: center; padding: 10px 30px; background: linear-gradient(to right, #dbeafe, #93c5fd);">
+    <div style="display: flex; align-items: center;">
+      <img src="C:\Users\Dell\OneDrive\Attachments\Desktop\Health tracker Dr care\images\images\dr care logo.jfif" alt="Dr.Care Logo" style="width: 60px; height: 60px; border-radius: 50%; margin-right: 15px;" />
+      <div>
+        <h2 style="margin: 0;">Dr.<span style="color: #1d4ed8;">Care</span></h2>
+    <div class="Appointment Booking">
+    <h2>Appointment Booking</h2>
+    </div>
+      </div>
+    </div>
+    <nav>
+      <a href="landingpage.html" style="margin-right: 20px; text-decoration: none; color: #000;">Services</a>
+      <a href="landingpage.html" style="text-decoration: none; color: #000;">About</a>
+    </nav>
+  </header>
+
+  <section class="patient-info blue-bar" style="padding: 10px 30px; background: linear-gradient(to right, #bfdbfe, #93c5fd);">
+    <h2>Patient’s Name : Leju Lisha</h2>
+  </section>
+
+  <main class="appointment-container">
+    <div class="section-title">
+      <label for="doctor-select">Doctors Selection</label>
+      <select name="doctor-select" id="doctor-select">
+        <option>Doctors</option>
+      </select>
+    </div>
+
+    <div class="grid-section">
+      <div class="left-panel">
+        <div class="selection-row">
+          <select name="doctor-name">
+            <option>Doctors</option>
+          </select>
+          <select name="available-date-time">
+            <option>Available Time and Date</option>
+          </select>
+        </div>
+
+        <div class="booking-row">
+          <label>Appointment Booking</label>
+          <select name="booking-date">
+            <option>Date</option>
+          </select>
+          <select name="booking-time">
+            <option>Time</option>
+          </select>
+        </div>
+
+        <div class="treatment-row">
+          <label>Reason for the Treatment</label>
+          <select name="treatment-reason">
+            <option>Select</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="right-panel">
+        <div class="reminder-box">
+          <p>Appointment Reminders</p>
+        </div>
+        <div class="button-row">
+          <button type="button" class="btn call-btn">Call</button>
+          <span>|</span>
+          <button type="button" class="btn chat-btn">Chat</button>
+          <button type="button" class="btn book-btn">Book appointment</button>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer style="text-align: center; padding: 20px; background: #dbeafe; margin-top: 40px;">
+    <p>📍 Address: No 2 2nd cross street, Malabar nagar, Shoranur, Kerala</p>
+    <p>📧 Email: drcare@gmail.com</p>
+    <p>📞 Phone: +1234 5677 89</p>
+  </footer>
+
+</body>
+</html>

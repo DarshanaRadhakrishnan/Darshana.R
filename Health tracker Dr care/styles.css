@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body, html {
+  height: 100%;
+}
+
+.container {
+  background: url("C:\Users\Dell\OneDrive\Attachments\Desktop\Health tracker Dr care\images\images\background.jpg.jpg") no repeat center center/cover;
+  min-height: 100vh;
+  position: relative;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background: rgba(255,255, 255, 0.8);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items:center;
+}
+
+.logo img {
+  width: 50px;
+  margin-right: 10px;
+}
+
+.logo span {
+   font-size:24px;
+   font-weight:bold;
+   color: #002060;
+}
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+}
+
+.auth {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.auth button {
+  padding: 6px 12px;
+  background: #f0f0f0;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+main {
+  text-align: left;
+  padding: 100px 60px 20px 60px;
+  color: #000;
+  background: rgba(255, 255, 255, 0.7);
+  width: fit-content;
+  margin-left: 40px;
+  border-radius: 8px;
+}
+
+main h1 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+main p {
+  font-size: 16px;
+  color: #4a6fa1;
+}
+
+.features {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px 20px;
+  background: rgba(255, 255, 255, 0.9);
+  bottom: 100px;
+  width: 100%;
+
+}
+
+.feature-box {
+  text-align: center;
+}
+
+.feature-box img {
+  width: 40px;
+  margin-bottom: 10px;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #333;
+  color: white;
+  font-size: 14px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}

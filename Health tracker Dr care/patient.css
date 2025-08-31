@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background-color: #f0f0f0;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 10px 30px;
+  border-bottom: 2px solid #ccc;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo img {
+  height: 70px;
+  width: 70px;
+  object-fit: cover;
+}
+ Patient Dashboard-title 
+.patient Dashboard {
+     background:#64b5f6;
+     padding:10px 30px;
+     color:white;
+     font-weight: bold;
+
+}
+.nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+
+/* Dashboard */
+.dashboard {
+  display: flex;
+  background-color: #5fc4f0;
+  min-height: 500px;
+}
+
+/* Sidebar */
+.sidebar {
+  background-color: white;
+  padding: 20px;
+  width: 250px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+}
+
+.profile-pic {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.sidebar h3 {
+  font-size: 20px;
+}
+
+.sidebar button {
+  width: 100%;
+  padding: 10px;
+  background-color: white;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  text-align: left;
+  padding-left: 10px;
+  box-shadow: 0 0 3px rgba(0,0,0,0.3);
+}
+
+.sidebar button:hover {
+  background-color: #e8e8e8;
+}
+
+/* Main content */
+.main-content {
+  flex: 1;
+  padding: 30px;
+  color: #000;
+}
+
+.info-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.info-grid div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 16px;
+}
+
+.info-grid select {
+  padding: 5px;
+  min-width: 100px;
+}
+
+/* Journal update */
+.journal {
+  margin-top: 30px;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.journal select {
+  padding: 8px;
+}
+
+.journal button {
+  padding: 10px 20px;
+  font-weight: bold;
+  background-color: #fff;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+/* Footer */
+.footer-box {
+  background-color: #eaeaea;
+  padding: 20px;
+  text-align: center;
+  margin:10px 0;
+  font-size: 16px;
+}

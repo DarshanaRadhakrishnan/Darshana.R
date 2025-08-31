@@ -1,0 +1,168 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #81C6E8;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  padding: 20px;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.branding h1 {
+  margin: 0;
+  color: #1e1e1e;
+}
+
+.branding h1 span {
+  color: #0066cc;
+}
+
+.branding p {
+  margin: 0;
+  font-weight: bold;
+}
+
+nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+/* Dashboard Layout */
+.doctor-dashboard {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.left-panel, .right-panel {
+  flex: 1;
+  min-width: 150px;
+  padding: 20px;
+}
+
+.doctor-photo {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.search-box, .actions-box {
+  background-color: #48B7DD;
+  padding: 15px;
+  margin: 20px 0;
+  border: 1px solid #333;
+  border-radius: 6px;
+}
+
+.search-box select,
+.actions-box button {
+  width: 100%;
+  margin: 8px 0;
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 6px;
+  border: none;
+}
+
+.actions-box button {
+  background-color: #fff;
+  cursor: pointer;
+}
+
+/* Right Panel */
+.calendar-section {
+  background-color: #a7d2e5;
+  padding: 15px;
+  text-align: center;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+.calendar-img {
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+}
+
+.white-btn {
+  background-color: white;
+  padding: 10px 20px;
+  font-weight: bold;
+  font-size: 16px;
+  border: none;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.icon-btn {
+  background-color: transparent;
+  border: none;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.dropdowns {
+  margin-bottom: 20px;
+}
+
+.dropdowns select {
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+.bottom-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.gray-btn {
+  background-color: #ddd;
+  padding: 10px 15px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  flex: 1;
+}
+
+/* Footer */
+footer {
+  background-color: #b3def1;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-box p {
+  margin: 10px 0;
+  font-size: 16px;
+}
+ Doctor Dashboard-title
+.Doctor Dashboard{
+   background: #64b5f6;
+   padding:10px 30px;
+   color: white;
+   font-weight:bold;
+}

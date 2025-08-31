@@ -1,0 +1,126 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #39b3ca;
+}
+
+header {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.logo {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.nav-left h1 {
+  color: #101056;
+  font-size: 24px;
+}
+
+.nav-right a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.banner {
+  background-color: #84d4e3;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.banner span {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.dropdowns select {
+  margin-left: 10px;
+  padding: 5px;
+  font-size: 16px;
+}
+
+.form-section {
+  padding: 20px;
+  background-color: #39b3ca;
+  color: black;
+}
+
+.form-section label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.form-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 15px 0;
+  flex-wrap: wrap;
+}
+
+.form-row select {
+  padding: 8px;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+}
+
+.slider-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.slider {
+  width: 150px;
+}
+
+.emoji {
+  font-size: 20px;
+}
+
+.submit-btn {
+  margin-top: 20px;
+  padding: 10px 30px;
+  background-color: #d4f2ff;
+  border-radius: 10px;
+  font-size: 18px;
+  border: 2px solid #000;
+  cursor: pointer;
+}
+
+footer {
+  background: #a4e5f4;
+  padding: 20px;
+  text-align:center;
+  
+}
+Daily health Journal-title
+
+.Daily health journal {
+
+background: #64b5f6;
+
+padding:10px 30px;
+
+color: white;
+
+font-weight: bold;
+}

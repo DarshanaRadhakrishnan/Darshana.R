@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Log In - Dr.Care</title>
+  <link rel="stylesheet" href="login.css" />
+</head>
+<body>
+  <div class="container">
+    
+    <!-- Left welcome section -->
+    <div class="left-section">
+      <h1>Log in to book your <br>appointments,<br>maintain records</h1>
+    </div>
+
+    <!-- Right login form -->
+    <div class="right-section">
+      <div class="login-box">
+        <h2>Log In</h2>
+        <form onsubmit="handleLogin(event)">
+          <label for="email">Email</label>
+          <input type="email" id="email" placeholder="Enter your email" required />
+
+          <label for="password">Password</label>
+          <input type="password" id="password" placeholder="Enter your password" required />
+
+          <div class="forgot-password">
+            <a href="#">Forgot password?</a>
+          </div>
+
+          <button type="submit" class="login-button">Log In</button>
+
+          <button type="button" class="google-login" onclick="location.href='patient.html'">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-original.svg" alt="Google" />
+            Log in with Google
+          </button>
+        </form>
+      </div>
+    </div>
+    
+  </div>
+
+  <script>
+    function handleLogin(event) {
+      event.preventDefault(); // Prevent form from submitting normally
+      window.location.href = "doctor.html"; // Redirect to patient page
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,143 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background-color: #d6eaff; /* Very light blue */
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(to right, #e6f0ff, #b3d9ff);
+  padding: 15px 30px;
+  border-bottom: 2px solid #ccc;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.branding h1 {
+  font-size: 26px;
+  color: #000033;
+}
+
+.branding h1 span {
+  color: #003366;
+  font-weight: bold;
+}
+
+.branding p {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.header-right a {
+  margin-left: 25px;
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+/* Patient Info */
+.patient-info {
+  background-color: #80d4ff;
+  padding: 20px 30px;
+}
+
+.patient-info h2 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.patient-box {
+  background-color: #cceeff;
+  padding: 15px;
+  border-radius: 8px;
+  width: fit-content;
+}
+
+/* Records Section */
+.records-section {
+  padding: 30px;
+  background-color: #b3e0ff;
+}
+
+.records-section h3 {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.dropdowns {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.dropdowns select {
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: 1px solid #333;
+}
+
+.lab-link a {
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  margin: 15px 0;
+  color: #000;
+}
+
+/* Activity */
+.activity-tracking h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.tracking-options span {
+  margin-right: 15px;
+  display: inline-block;
+  font-size: 16px;
+}
+
+/* Footer */
+.footer {
+  background-color: #d6eaff;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+Medical Records-title
+
+.Medical Records {
+
+background: #64b5f6;
+
+padding:10px 30px;
+
+color: white;
+
+font-weight: bold;
+}
